@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel tentang UML Package Diagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+			text-align: justify;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px 130px 40px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		
+	
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+        .header{
+            font-size: 20px;
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+        header h2{
+            color: #7d7f82;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            
+            text-align: center;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin-top: 10px;
+        }
+        h2, h3 {
+            color: #706565;
+        }
+        p {
+            color: #666;
+			text-align: justify;
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+		.deskripsi {
+			font-size: 30px;
+			font-weight: bold;
+			font-family: 'Sans-serif';
+			color: #364f6b;
+			text-decoration: underline;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		hr {
+			size: 15px;
+			background-color: #493f8b;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+        .footer-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .footer {
+            width: 150px;
+            text-align: center;
+            margin-top: 20px;
+            margin-right: 20px;
+        }
+        .footer p {
+            margin-top: 5px; 
+            color: #fff;
+            margin-bottom: 20px;
+            line-height: 16px;
+            text-align: justify;
+        }
+        .footer img {
+            width: 110px; 
+            height: 100px;
+            border-radius: 50%; 
+            margin-bottom: 10px;
+        }
+        .copyright {
+            text-align: center;
+            width: 100%;
+            padding: 50px 0px 50px 0px;
+            margin-top: 50px;
+        }
+       
+    @media screen and (max-width: 600px) {
+    .container {
+        padding: 20px 10px 40px; 
+    }
+    header {
+        padding: 10px 0;
+    }
+    .footer-container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .footer {
+        margin-right: 0;
+        margin-bottom: 20px; 
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 10px; 
+    }
+    .header h1 {
+        font-size: 22px;
+    }
+    .footer img {
+        width: 80px; 
+        height: 80px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <h1>Unified Modelling Language</h1>
+        <h2>By SORRIYE</h2>
+    </header>
+    </div>
+    <div class="container">
+		<center>
+			<div class="deskripsi">Package Diagram</div>
+		</center>
+        <h2>Definisi</h2>
+        <p>Diagram paket (package diagram) dalam UML digunakan untuk menggambarkan struktur organisasi dan hubungan antar paket dalam suatu sistem perangkat lunak. Diagram ini menyajikan paket-paket sebagai wadah logis untuk menyimpan dan mengelompokkan elemen-elemen perangkat lunak seperti kelas, interface, atau komponen. Tujuannya adalah untuk menyederhanakan kompleksitas sistem dengan mengelompokkan elemen-elemen terkait ke dalam paket-paket yang saling terkait, memfasilitasi pemahaman struktur sistem secara keseluruhan, dan memudahkan komunikasi antar tim pengembangan.</p>
+		<hr size="6px">
+        <h2>Fungsi</h2>
+        <ul>
+            <li>Organisasi Struktur: Menyajikan secara visual bagaimana elemen-elemen perangkat lunak diorganisir ke dalam paket-paket.</li>
+            <li>Hubungan Antar Paket: Menunjukkan hubungan dan ketergantungan antara paket-paket, seperti ketergantungan penggunaan, ketergantungan generalisasi, atau ketergantungan impor.</li>
+            <li>Sederhanakan Kompleksitas: Mengelompokkan elemen-elemen terkait ke dalam paket-paket yang saling terkait untuk menyederhanakan kompleksitas sistem.</li>
+            <li>Pemahaman Struktur Sistem: Memfasilitasi pemahaman struktur sistem secara keseluruhan bagi pengembang dan pemangku kepentingan.</li>
+            <li>Komunikasi Tim Pengembangan: Memudahkan komunikasi antar anggota tim pengembangan dengan menyediakan pandangan tingkat tinggi tentang struktur sistem.</li>
+            <li>Pemeliharaan dan Evolusi: Membantu dalam pemeliharaan dan evolusi sistem seiring waktu dengan memudahkan identifikasi dan pengelolaan elemen-elemen perangkat lunak.</li>
+        </ul>
+		<hr size="6px">
+        <center>
+			<div class="deskripsi">Diagram dan Penjelasan</div>
+		</center>
+        <h2> Contoh Package Diagram</h2>
+        <img src="diagram.jpeg" alt="Diagram Paket dalam UML">
+        <h2>Penjelasan</h2>
+		<p>Gambar diatas  adalah paket utama yang memuat seluruh aplikasi. Paket ini berfungsi sebagai wadah untuk semua komponen utama aplikasi. Paket tersebut antara lain :</p>
+		<ul>
+			<li>Paket (Package): Merupakan kumpulan elemen-elemen yang saling terkait, seperti kelas, interface, dan subpaket. Paket digunakan untuk mengorganisir elemen-elemen tersebut menjadi unit yang lebih besar.</li>
+			<li>Elemen-Elemen dalam Paket: Ini bisa berupa kelas, interface, atau komponen lain yang dikelompokkan bersama dalam satu paket.</li>
+			<li>Relasi Paket (Package Relationship): Menunjukkan hubungan antara paket-paket dalam sistem. Beberapa relasi paket yang umum adalah dependensi, generalisasi, dan asosiasi.</li>
+			<li>Dependensi (Dependency): Menunjukkan bahwa suatu paket bergantung pada paket lain untuk melaksanakan fungsinya. Jika perubahan terjadi pada paket yang bergantung, dapat memengaruhi paket yang tergantung.</li>
+			<li>Generalisasi (Generalization): Menunjukkan bahwa satu paket merupakan perluasan dari paket lain, mirip dengan hubungan pewarisan dalam pemrograman berorientasi objek.</li>
+		    <li>Asosiasi (Association): Menunjukkan keterhubungan antara dua paket untuk mencapai suatu tujuan tertentu, tanpa bergantung pada satu sama lain secara langsung.</li>
+		</ul>
+		<hr size="6px">
+        <center>
+			<div class="deskripsi">Skenario</div>
+		</center>
+        <h2>Contoh Skenario</h2>
+        <img src="skenario.jpeg" alt="Contoh Skenario">
+    </div>
+    <footer class="footer-container">
+		<div class="footer">
+			<img src="zarir.jpeg">
+            <p> Achmad Zarir A</p>
+            <p>(K3522002)</p>
+		</div>
+        <div class="footer">
+			<img src="diaz.jpeg">
+            <p>Diaz Rangga S</p>
+            <p>(K3522020)</p>
+		</div>
+        <div class="footer">
+			<img src="el.jpeg">
+            <p> Elnad Franditya S</p>
+            <p>(K3522024)</p>
+		</div>
+        <div class="footer">
+			<img src="cahyo.jpeg">
+            <p>Lasminanto Nur C</p>
+            <p>(K3522038)</p>
+		</div>
+        <div class="footer">
+			<img src="wildan.jpeg">
+            <p>M Wildan Azizi</p>
+            <p>(K3522050)</p>
+		</div>
+        
+        <div class="copyright" >
+             &copy; 2024. <b>Sorriye.</b> Rekayasa Perangkat Lunak.
+        </div>
+        </div>    
+    </footer>
+</body>
+</html>
